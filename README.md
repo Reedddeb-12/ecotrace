@@ -62,11 +62,10 @@ git push heroku main
 
 ## 📖 Documentation
 
-- **[Quick Start Guide](START_HERE.md)** - Get running in 5 minutes
-- **[Deployment Guide](README_DEPLOY.md)** - Deploy to production
-- **[Setup Guide](SETUP.md)** - Detailed local setup
-- **[Demo Script](DEMO_SCRIPT.md)** - Present EcoTrace
+- **[Setup Guide](SETUP.md)** - Local development setup
+- **[Deployment Guide](DEPLOYMENT.md)** - Deploy to production
 - **[Architecture](ARCHITECTURE.md)** - Technical details
+- **[Contributing](CONTRIBUTING.md)** - Contribution guidelines
 - **[FAQ](FAQ.md)** - Common questions
 
 ## 🏗️ Project Structure
