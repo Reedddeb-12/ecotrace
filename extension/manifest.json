@@ -1,0 +1,31 @@
+{
+  "manifest_version": 3,
+  "name": "EcoTrace - AI Footprint Tracker",
+  "version": "1.0",
+  "description": "Track energy, carbon, and water footprint of AI prompts",
+  "permissions": ["activeTab", "storage"],
+  "host_permissions": [
+    "*://chat.openai.com/*",
+    "*://chatgpt.com/*",
+    "*://claude.ai/*",
+    "*://gemini.google.com/*",
+    "*://bard.google.com/*"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "EcoTrace - AI Footprint Tracker"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://chat.openai.com/*",
+        "*://chatgpt.com/*",
+        "*://claude.ai/*",
+        "*://gemini.google.com/*",
+        "*://bard.google.com/*"
+      ],
+      "js": ["content.js"],
+      "run_at": "document_end"
+    }
+  ]
+}
