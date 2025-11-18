@@ -1,7 +1,7 @@
 // EcoTrace - AI Footprint Tracker
 console.log('EcoTrace: Content script loaded!');
 
-const API_URL = 'http://localhost:8000';
+const API_URL = 'https://ecotrace-1.onrender.com';
 
 // Estimate tokens (rough: ~4 chars per token)
 function estimateTokens(text) {

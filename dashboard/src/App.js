@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
 import './App.css';
 
-const API_URL = 'http://localhost:8000';
+const API_URL = 'https://ecotrace-1.onrender.com';
 
 function App() {
   const [stats, setStats] = useState(null);
